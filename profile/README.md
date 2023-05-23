@@ -1,8 +1,9 @@
 Yahoo Yavin - BI tool
 ---------------------
 
-- [Example BI Application (Template)](https://github.com/stealth-tech-startup/yavin-app)
+- [Yavin](https://github.com/stealth-tech-startup/framework)
+- [Example Yavin App (Template)](https://github.com/stealth-tech-startup/yavin-app)
 
-  - [Externalized Demo Config (Template)](https://github.com/stealth-tech-startup/yavin-demo-config)
+  - [Externalized Config for the Example App (Template)](https://github.com/stealth-tech-startup/yavin-demo-config)
 
 - [Documentation](https://stealth-tech-startup.github.io/yavin-docs/)
