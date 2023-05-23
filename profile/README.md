@@ -1,3 +1,8 @@
+GraphQL
+-------
+
+[GraphQL Server for Prototyping](https://github.com/stealth-tech-startup/json-graphql-server)
+
 Yahoo Yavin - BI tool
 ---------------------
 
