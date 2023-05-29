@@ -18,10 +18,13 @@ We used to love HashiCorp but we are now frustrated with its major mis-actions t
 
   <img width="1005" alt="page" src="https://github.com/stealth-tech-startup/.github/assets/16126939/6e9e950e-b168-482e-a076-36398b43f624">
 
-We predict that HashiCorp is going to keep shrinking its Open Source community and, thus, maintain a copy of what we depends here:
+We predict that HashiCorp is going to keep shrinking its Open Source community and, thus, maintain a copy of what we depends here in case HashiCorp closes them:
 
 - [HashiCorp Dev Portal](https://github.com/stealth-tech-startup/hashicorp-dev-portal)
 - [HashiCorp Packer](https://github.com/stealth-tech-startup/hashicorp-packer)
+
+  - [AWS Plugin](https://github.com/stealth-tech-startup/packer-plugin-amazon)
+
 - [HashiCorp Terraform](https://github.com/stealth-tech-startup/hashicorp-terraform)
 - [HashiCorp Vault](https://github.com/stealth-tech-startup/hashicorp-vault)
 - [HashiCorp Vagrant](https://github.com/stealth-tech-startup/hashicorp-vagrant)
