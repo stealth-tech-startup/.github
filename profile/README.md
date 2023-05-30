@@ -8,6 +8,11 @@ We use Yavin internally to empower our data-based decision making
 
   - [Externalized Config for the Example App (Template)](https://github.com/stealth-tech-startup/yavin-demo-config)
 
+
+
+- [TypeScript UML Playground](https://github.com/stealth-tech-startup/typescript-uml)
+
+
 IaC via HashiCorp
 -----------------
 
