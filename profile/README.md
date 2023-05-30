@@ -1,3 +1,10 @@
+Quick Prototyping Tools
+-----------------------
+
+- [Cloudcraft](https://www.cloudcraft.co/)
+- [TypeScript UML Playground](https://github.com/stealth-tech-startup/typescript-uml)
+- [GraphQL server for fast prototyping](https://github.com/stealth-tech-startup/json-graphql-server)
+
 Yahoo [Yavin](https://github.com/stealth-tech-startup/framework) - BI tool
 --------------------------------------------------------------------------
 
@@ -7,11 +14,6 @@ We use Yavin internally to empower our data-based decision making
 - [Example Yavin App (Template)](https://github.com/stealth-tech-startup/yavin-app)
 
   - [Externalized Config for the Example App (Template)](https://github.com/stealth-tech-startup/yavin-demo-config)
-
-
-
-- [TypeScript UML Playground](https://github.com/stealth-tech-startup/typescript-uml)
-
 
 IaC via HashiCorp
 -----------------
