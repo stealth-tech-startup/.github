@@ -1,4 +1,4 @@
-I believe innovation is the strongest force that drives team in the right direction. Effective team innovation dirves [iterative product discovery](https://www.amazon.com/INSPIRED-Create-Tech-Products-Customers/dp/1119387507). My definition of innovation is
+I believe innovation is the strongest force that drives team in the right direction, because it implements [iterative product discovery](https://www.amazon.com/INSPIRED-Create-Tech-Products-Customers/dp/1119387507). My definition of innovation is
 
 <p align="center">
 <b>An innovation is a prototyping that changes my life in 2 hours</b>
