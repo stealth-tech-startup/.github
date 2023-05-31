@@ -1,3 +1,9 @@
+I believe innovation is the strongest force that drives team in the right direction. My definition of innovation is
+
+> My life gets changed dramatically in 2 hours
+
+This org is dedicated for technologies that makes it happen
+
 Quick Prototyping Tools
 -----------------------
 
@@ -5,6 +11,18 @@ Quick Prototyping Tools
 - [Cloudcraft](https://www.cloudcraft.co/)
 - [TypeScript UML Playground](https://github.com/stealth-tech-startup/typescript-uml)
 - [GraphQL server for fast prototyping](https://github.com/stealth-tech-startup/json-graphql-server)
+
+<details><summary>Useful Shell Commands</summary>
+
+### Data Cleansing
+
+- Filtering out lines **shorter** than 30 characters
+  
+  ```bash
+  grep -E '^.{30,}$' input.txt > output.txt
+  ```
+ 
+</details>
 
 Yahoo [Yavin](https://github.com/stealth-tech-startup/framework) - BI tool
 --------------------------------------------------------------------------
