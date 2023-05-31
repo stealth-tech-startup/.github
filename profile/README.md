@@ -1,4 +1,4 @@
-I believe innovation is the strongest force that drives team in the right direction. My definition of innovation is
+I believe innovation is the strongest force that drives team in the right direction. Effective team innovation dirves [iterative product discovery](https://www.amazon.com/INSPIRED-Create-Tech-Products-Customers/dp/1119387507). My definition of innovation is
 
 <p align="center">
 <b>An innovation is a prototyping that changes my life in 2 hours</b>
@@ -38,11 +38,63 @@ Quick Prototyping Tools
   
 - Sorting Strings and Ordering by Duplicate Counts
 
-    cat data.txt | sort | uniq -c | sort -n
+  ```bash
+  cat data.txt | sort | uniq -c | sort -n
+  ```
 
 - Listing Files Sorted by the Number of Lines
 
-    find /group/book/four/word/ -type f -exec wc -l {} + | sort -rn
+  ```bash
+  find /group/book/four/word/ -type f -exec wc -l {} + | sort -rn
+  ```
+
+- Replacing character with another
+
+  ```bash
+  cat data-file | tr char-to-be-replaced new-char
+  ```
+  
+- Lowercasing a File
+
+  ```bash
+  tr A-Z a-z < input
+  ```
+
+- [Filtering Rows Based on Number of Columns](http://www.theunixschool.com/2012/06/awk-10-examples-to-group-data-in-csv-or.html)
+
+  ```bash
+  $ echo '0333 foo
+  >  bar
+  > 23243 qux' | awk 'NF==2{print}{}'
+  0333 foo
+  23243 qux
+  ```
+                    
+- Reversing the Order of a List of Words
+
+  ```bash
+  echo $str | awk '{ for (i=NF; i>1; i--) printf("%s ",$i); print $1; }'
+  ```
+                    
+- Add Numbers in a File, each Line Containing a Number
+
+  ```bash
+  cat file | awk '{ SUM += $1} END { print SUM }'
+  ```
+                    
+- Extracting Substring Within Double Quotes
+
+  ```bash
+  $ echo "substring" | cut -d '"' -f2
+  substring
+  ```
+                    
+- Removing Anything After a Character(Inclusive)
+
+  ```bash
+  $ echo "substring + ?" | cut -f1 -d"+"
+  substring
+  ```
 
 ### Data Sourcing
   
