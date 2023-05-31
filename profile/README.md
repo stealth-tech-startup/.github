@@ -95,6 +95,32 @@ _Rapid_ Prototyping Tools
   $ echo "substring + ?" | cut -f1 -d"+"
   substring
   ```
+                    
+- GroupBy a CSV File
+
+  ```bash
+  cut -d ',' -f 6,7 data.csv | tail -n +2 | awk -F, '{a[$1]+=$2;}END{for(i in a)print i", "a[i];}'
+  ```
+
+  - ``cut -d ',' -f first_column_idx,last_column_idx data.csv``: extract a subset of columns and rows from a CSV file
+  - ``tail -n +2``: remove the header line(first line) in CSV file
+  - ``awk -F, '{a[$1]+=$2;}END{for(i in a)print i", "a[i];}'``: find the sum of individual group records
+
+  For example, suppose we have a data file of::
+
+    Date,Fruit Purchased,Num Purchased
+    2020-05-20,apple,10
+    2020-05-21,orange,10
+    2020-05-22,banana,5
+    2020-05-23,apple,10
+    2020-05-24,orange,5
+    2020-05-25,banana,10
+
+  Running ``cut -d ',' -f 2,3 data.csv | tail -n +2 | awk -F, '{a[$1]+=$2;}END{for(i in a)print i", "a[i];}'`` gives::
+
+    apple, 20
+    banana, 15
+    orange, 15
 
 ### Data Sourcing
   
