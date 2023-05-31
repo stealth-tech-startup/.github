@@ -1,6 +1,6 @@
 I believe innovation is the strongest force that drives team in the right direction. My definition of innovation is
 
-> An innovation is a prototyping that changes my life in 2 hours
+> An _innovation_ is a prototyping that changes my life in 2 hours
 
 This org is dedicated for technologies that makes it happen
 
