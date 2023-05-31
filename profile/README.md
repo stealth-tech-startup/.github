@@ -6,8 +6,8 @@ I believe innovation is the strongest force that drives team in the right direct
 
 This org is dedicated for technologies that makes it happen
 
-Quick Prototyping Tools
------------------------
+_Rapid_ Prototyping Tools
+-------------------------
 
 - [OpenStack Swift Docker Image](https://github.com/stealth-tech-startup/docker-swift-onlyone)
 - [Cloudcraft](https://www.cloudcraft.co/)
