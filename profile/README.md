@@ -1,6 +1,6 @@
 I believe innovation is the strongest force that drives team in the right direction. My definition of innovation is
 
-> My life gets changed dramatically in 2 hours
+> An innovation is a prototyping that changes my life in 2 hours
 
 This org is dedicated for technologies that makes it happen
 
@@ -14,10 +14,6 @@ Quick Prototyping Tools
 
 <details><summary>Useful Shell Commands & Links</summary>
 
-### Data Sourcing
-  
-- [Converting PDF to text](https://www.pdf2go.com/pdf-to-text)  
-  
 ### Data Cleansing
 
 - Filtering out lines **shorter** than 30 characters
@@ -25,7 +21,24 @@ Quick Prototyping Tools
   ```bash
   grep -E '^.{30,}$' input.txt > output.txt
   ```
- 
+
+### Data Sourcing
+  
+- [Converting PDF to text](https://www.pdf2go.com/pdf-to-text) 
+- Convert .flv to .mp4: [Handbrake](https://handbrake.fr) converts FLV into anything. The process is fairly straightforward:
+
+  1. Start Handbrake.
+  2. Click the **Source** button at the top.
+  3. Locate and choose the FLV file.
+  4. Choose an appropriate preset or configure the **Video** and **Audio** tabs manually.
+  5. Click the **Start** button.
+
+- Converting PDF to Images
+
+  ```bash
+  pdftoppm -rx 300 -ry 300 -png file.pdf prefix # 300 specifies resolution
+  ```
+
 </details>
 
 Yahoo [Yavin](https://github.com/stealth-tech-startup/framework) - BI tool
