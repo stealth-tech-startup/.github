@@ -12,8 +12,12 @@ Quick Prototyping Tools
 - [TypeScript UML Playground](https://github.com/stealth-tech-startup/typescript-uml)
 - [GraphQL server for fast prototyping](https://github.com/stealth-tech-startup/json-graphql-server)
 
-<details><summary>Useful Shell Commands</summary>
+<details><summary>Useful Shell Commands & Links</summary>
 
+### Data Sourcing
+  
+- [Converting PDF to text](https://www.pdf2go.com/pdf-to-text)  
+  
 ### Data Cleansing
 
 - Filtering out lines **shorter** than 30 characters
