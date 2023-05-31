@@ -1,6 +1,8 @@
 I believe innovation is the strongest force that drives team in the right direction. My definition of innovation is
 
-> An _innovation_ is a prototyping that changes my life in 2 hours
+<p align="center">
+<b>An innovation is a prototyping that changes my life in 2 hours</b>
+</p>
 
 This org is dedicated for technologies that makes it happen
 
@@ -21,10 +23,36 @@ Quick Prototyping Tools
   ```bash
   grep -E '^.{30,}$' input.txt > output.txt
   ```
+  
+- Removing blank lines
+
+  ```bash
+  grep -v '^$' input.txt > output.txt
+  ```
+  
+- Removing Duplicate Lines
+
+  ```bash
+  sort {file-name} | uniq
+  ```
+  
+- Sorting Strings and Ordering by Duplicate Counts
+
+    cat data.txt | sort | uniq -c | sort -n
+
+- Listing Files Sorted by the Number of Lines
+
+    find /group/book/four/word/ -type f -exec wc -l {} + | sort -rn
 
 ### Data Sourcing
   
 - [Converting PDF to text](https://www.pdf2go.com/pdf-to-text) 
+- Converting PDF to Images
+
+  ```bash
+  pdftoppm -rx 300 -ry 300 -png file.pdf prefix # 300 specifies resolution
+  ```
+  
 - Convert .flv to .mp4: [Handbrake](https://handbrake.fr) converts FLV into anything. The process is fairly straightforward:
 
   1. Start Handbrake.
@@ -33,11 +61,7 @@ Quick Prototyping Tools
   4. Choose an appropriate preset or configure the **Video** and **Audio** tabs manually.
   5. Click the **Start** button.
 
-- Converting PDF to Images
 
-  ```bash
-  pdftoppm -rx 300 -ry 300 -png file.pdf prefix # 300 specifies resolution
-  ```
 
 </details>
 
