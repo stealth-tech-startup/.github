@@ -10,6 +10,7 @@ _Rapid_ Prototyping Tools
 -------------------------
 
 - [OpenStack Swift Docker Image](https://github.com/stealth-tech-startup/docker-swift-onlyone)
+- [JWT Playground](https://jwt.io/)
 - [Cloudcraft](https://www.cloudcraft.co/)
 - [TypeScript UML Playground](https://github.com/stealth-tech-startup/typescript-uml)
 - [GraphQL server for fast prototyping](https://github.com/stealth-tech-startup/json-graphql-server)
