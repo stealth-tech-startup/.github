@@ -16,6 +16,7 @@ _Rapid_ Prototyping Tools
 - [GraphQL server for fast prototyping](https://github.com/stealth-tech-startup/json-graphql-server)
 - [(React) Authentication through Keycloak](https://github.com/stealth-tech-startup/react-keycloak-authentication)
 - [Mockbin](https://github.com/stealth-tech-startup/mockbin)
+- [Docker Registry UI](https://github.com/stealth-tech-startup/docker-registry-ui)
 
 <details><summary>Useful Shell Commands & Links</summary>
 
