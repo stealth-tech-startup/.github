@@ -17,6 +17,7 @@ _Rapid_ Prototyping Tools
 - [(React) Authentication through Keycloak](https://github.com/stealth-tech-startup/react-keycloak-authentication)
 - [Mockbin](https://github.com/stealth-tech-startup/mockbin)
 - [Docker Registry UI](https://github.com/stealth-tech-startup/docker-registry-ui)
+- [NPM Trends](https://github.com/stealth-tech-startup/npm-trends)
 
 <details><summary>Useful Shell Commands & Links</summary>
 
