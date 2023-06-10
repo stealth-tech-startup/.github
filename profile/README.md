@@ -12,12 +12,12 @@ _Rapid_ Prototyping Tools
 - [OpenStack Swift Docker Image](https://github.com/stealth-tech-startup/docker-swift-onlyone)
 - [JWT Playground](https://jwt.io/)
 - [Cloudcraft](https://www.cloudcraft.co/)
-- [TypeScript UML Playground](https://github.com/stealth-tech-startup/typescript-uml)
 - [GraphQL server for fast prototyping](https://github.com/stealth-tech-startup/json-graphql-server)
 - [(React) Authentication through Keycloak](https://github.com/stealth-tech-startup/react-keycloak-authentication)
 - [Mockbin](https://github.com/stealth-tech-startup/mockbin)
 - [Docker Registry UI](https://github.com/stealth-tech-startup/docker-registry-ui)
 - [NPM Trends](https://github.com/stealth-tech-startup/npm-trends)
+- ~~[TypeScript UML Playground](https://github.com/stealth-tech-startup/typescript-uml)~~ We observes that UML related techonologies are generally not-well-developed or maintained. The relfects the fact that UML will soon be replaced by a new code analysis paradim 
 
 <details><summary>Useful Shell Commands & Links</summary>
 
