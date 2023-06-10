@@ -20,7 +20,7 @@ _Rapid_ Prototyping Tools
 
 <details><summary>Useful Shell Commands & Links</summary>
 
-  ### Blacklist
+### Blacklist
   
 - ~~[TypeScript UML Playground](https://github.com/stealth-tech-startup/typescript-uml)~~ We observes that UML related techonologies today are not well maintained in general. The relfects the fact that UML will soon be replaced by a new code analysis paradim 
 - ~~[Graphviz](https://softwarerecs.stackexchange.com/q/40)~~: AT&T isn't supporting Graphviz as much as it did in the past and some of the authors have left to seek other work
