@@ -17,9 +17,13 @@ _Rapid_ Prototyping Tools
 - [Mockbin](https://github.com/stealth-tech-startup/mockbin)
 - [Docker Registry UI](https://github.com/stealth-tech-startup/docker-registry-ui)
 - [NPM Trends](https://github.com/stealth-tech-startup/npm-trends)
-- ~~[TypeScript UML Playground](https://github.com/stealth-tech-startup/typescript-uml)~~ We observes that UML related techonologies today are not well maintained in general. The relfects the fact that UML will soon be replaced by a new code analysis paradim 
 
 <details><summary>Useful Shell Commands & Links</summary>
+
+  ### Blacklist
+  
+- ~~[TypeScript UML Playground](https://github.com/stealth-tech-startup/typescript-uml)~~ We observes that UML related techonologies today are not well maintained in general. The relfects the fact that UML will soon be replaced by a new code analysis paradim 
+- ~~[Graphviz](https://softwarerecs.stackexchange.com/q/40)~~: AT&T isn't supporting Graphviz as much as it did in the past and some of the authors have left to seek other work
 
 ### Data Cleansing
 
