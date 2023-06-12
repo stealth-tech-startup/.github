@@ -19,6 +19,8 @@ _Rapid_ Prototyping Tools
 - [NPM Trends](https://github.com/stealth-tech-startup/npm-trends)
 - [quickchart](https://github.com/stealth-tech-startup/quickchart)
 
+  - [Documentation](https://stealth-tech-startup.github.io/quickchart-docs/)
+
 <details><summary>Useful Shell Commands & Links</summary>
 
 ### Data Cleansing
