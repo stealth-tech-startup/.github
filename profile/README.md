@@ -17,7 +17,7 @@ _Rapid_ Prototyping Tools
 - [Mockbin](https://github.com/stealth-tech-startup/mockbin)
 - [Docker Registry UI](https://github.com/stealth-tech-startup/docker-registry-ui)
 - [NPM Trends](https://github.com/stealth-tech-startup/npm-trends)
-- [quickchart](https://github.com/stealth-tech-startup/quickchart)
+- [QuickChart](https://github.com/stealth-tech-startup/quickchart)
 
   - [Documentation](https://stealth-tech-startup.github.io/quickchart-docs/)
 
