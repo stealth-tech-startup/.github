@@ -9,6 +9,7 @@ This org is dedicated for technologies that makes it happen
 _Rapid_ Prototyping Tools
 -------------------------
 
+- [ConvnetJS](http://cs.stanford.edu/people/karpathy/convnetjs/demo/classify2d.html)
 - [OpenStack Swift Docker Image](https://github.com/stealth-tech-startup/docker-swift-onlyone)
 - [JWT Playground](https://jwt.io/)
 - [Cloudcraft](https://www.cloudcraft.co/)
