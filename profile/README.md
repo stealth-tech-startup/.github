@@ -21,6 +21,8 @@ _Rapid_ Prototyping Tools
 - [QuickChart](https://github.com/stealth-tech-startup/quickchart)
 
   - [Documentation](https://stealth-tech-startup.github.io/quickchart-docs/)
+ 
+- [VirtualBox](https://qubitpi.github.io/jersey-guide/2020/08/22/31-local-distributed-virtualbox.html#set-up-a-vm-cluster)
 
 <details><summary>Useful Shell Commands & Links</summary>
 
