@@ -21,7 +21,9 @@ _Rapid_ Prototyping Tools
 - [QuickChart](https://github.com/stealth-tech-startup/quickchart)
 
   - [Documentation](https://stealth-tech-startup.github.io/quickchart-docs/)
- 
+
+- [wekan](https://github.com/wekan/wekan): Open Source Kanban
+- [NextCloud](https://nextcloud.com/)
 - <details><summary>VirtualBox</summary>
 
   - Start VM from command line
