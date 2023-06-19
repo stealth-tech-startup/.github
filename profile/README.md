@@ -22,7 +22,39 @@ _Rapid_ Prototyping Tools
 
   - [Documentation](https://stealth-tech-startup.github.io/quickchart-docs/)
  
-- [VirtualBox](https://qubitpi.github.io/jersey-guide/2020/08/22/31-local-distributed-virtualbox.html#set-up-a-vm-cluster)
+- <details><summary>VirtualBox</summary>
+
+  - Start VM from command line
+
+    ```bash
+    VBoxManage startvm <vm_name> --type headless
+    ```
+
+  - Stop virtual machine
+
+    ```bash
+    VBoxManage controlvm <vm_name> poweroff
+    ```
+
+  - [SSH into a virtual machine](https://www.cyberciti.biz/faq/ubuntu-linux-install-openssh-server/)
+ 
+    1. To open guest machine network settings to make sure it's attached to NAT
+   
+       ![](https://averagelinuxuser.com/assets/images/posts/2022-05-21-ssh-into-virtualbox/Virtualbox-NAT.jpg)
+
+    2. Then go to _Advanced_ -> **_Port Forwarding_** and add these settings:
+
+       - The IP fields can be left empty.
+       - Name: ssh (or whatever you like)
+       - Protocol: TCP
+       - Host Port: 2222 (or any other port you like)
+       - Gust port: 22
+
+       ![](https://averagelinuxuser.com/assets/images/posts/2022-05-21-ssh-into-virtualbox/Virtualbox-port-forwarding.jpg)
+
+    3. Reboot host machine and ssh by `ssh -p 2222 virtualbox-user-name@localhost`
+ 
+  </details>
 
 <details><summary>Useful Shell Commands & Links</summary>
 
