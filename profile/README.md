@@ -208,16 +208,14 @@ We use Yavin internally to empower our data-based decision making, such as quant
 
 - [Elide](https://stealth-tech-startup.github.io/elide-doc/)
 
-### Immutable Infrastructure via HashiCorp
-------------------------------------------
+### [HashiCorp AWS][HashiCorp AWS]
 
-What [HashiCorp AWS][HashiCorp AWS]  Believes
----------------------------------------------
+#### What [HashiCorp AWS][HashiCorp AWS] Believes
 
 [HashiCorp AWS][HashiCorp AWS] believes infrastructure is the "home" to software. The _highest-quality_ software are not possible unless backed by
 the best-made tech infrastructure
 
-### Traditional Software Development
+#### Traditional Software Development
 
 ![Error loading traditional.png](https://github.com/QubitPi/QubitPi/blob/master/img/hashicorp-aws/traditional.png?raw=true)
 
@@ -226,7 +224,7 @@ engagement demands requires high levels of _interpersonal sophistication_. It is
 hardest task in teamwork is _efficient communication_**. This gets exacerbated in a software development cycle in which
 a developer has to distribute their communication efforts among **3** parties, which makes mis-communication frequent
 
-### How Big Techs Improve It
+#### How Big Techs Improve It
 
 ![Error loading yahoo.png](https://github.com/QubitPi/QubitPi/blob/master/img/hashicorp-aws/yahoo.png?raw=true)
 
@@ -239,13 +237,13 @@ quality, at least from my experience, was still not optimal. I've had such exper
 system but waited for extra couple of weeks before DevOps Engineer set up a dedicated server for deployment. This
 virtually got mis-translated to my boss as "A software developer had his work delayed for couple weeks".
 
-### Software Development Tomorrow (What _HashiCorp AWS_ Does)
+#### Software Development Tomorrow (What _HashiCorp AWS_ Does)
 
 ![Error loading new.png](https://github.com/QubitPi/QubitPi/blob/master/img/hashicorp-aws/new.png?raw=true)
 
 The reason we still have DevOps staff is resource isolation using the ubiquitous Docker, which borns out of the
 traditional on-premise technology, is _manual_. With on-demand cloud, resource isolations are assumed NOT managed. We
-instead _manage business logics_ with efficiency ([Packer][Packer]) and immutability ([Terraform][Terraform]). **With
+instead _manage business logics_ with efficiency ([Packer][HashiCorp Packer]) and immutability ([Terraform][HashiCorp Terraform]). **With
 HashiCorp + OpenStack Cloud, business no longer needs ~~Docker + k8s~~**. Teams and developers as well, with almost no
 overhead, are able to eliminate human DevOps<br/><br/>This is the picture from which I'm turning into reality in my
 team. Giving our developer fully **automated** control over infrastructure brings the following benefits to the team:
@@ -259,3 +257,11 @@ team. Giving our developer fully **automated** control over infrastructure bring
 [HashiCorp AWS][HashiCorp AWS] does exactly that.
 
 [HashiCorp AWS]: https://github.com/marketplace/actions/hashicorp-aws
+[HashiCorp Terraform]: https://qubitpi.github.io/hashicorp-terraform/terraform/docs
+[HashiCorp Packer]: https://qubitpi.github.io/hashicorp-packer/packer/docs
+
+[Jenkins]: https://qubitpi.github.io/jenkins.io
+
+[Screwdriver]: https://screwdriver.cd/
+
+[Yahoo removed QA]: https://spectrum.ieee.org/yahoos-engineers-move-to-coding-without-a-net
