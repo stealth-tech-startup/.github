@@ -199,7 +199,7 @@ Tenured Innovations @paion-data
 
 ### Yahoo [Yavin](https://github.com/stealth-tech-startup/framework)
 
-We use Yavin internally to empower our data-based decision making, such as employees salary bonus, promotion, and product's users analytics
+We use Yavin internally to empower our data-based decision making, such as quantifying employees salary bonus & promotion, and analyzing the user behavirous of our product
 
 - [Documentation](https://stealth-tech-startup.github.io/yavin-docs/)
 - [Example Yavin App (Template)](https://github.com/stealth-tech-startup/yavin-app)
@@ -257,3 +257,5 @@ team. Giving our developer fully **automated** control over infrastructure bring
 - **Eventually reduces the labor costs of company**
 
 [HashiCorp AWS][HashiCorp AWS] does exactly that.
+
+[HashiCorp AWS]: https://github.com/marketplace/actions/hashicorp-aws
