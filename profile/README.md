@@ -194,10 +194,12 @@ _Rapid_ Prototyping Tools
 - ~~[TypeScript UML Playground](https://github.com/stealth-tech-startup/typescript-uml)~~ We observes that UML related techonologies today are not well maintained in general. The relfects the fact that UML will soon be replaced by a new code analysis paradim 
 - ~~[Graphviz](https://softwarerecs.stackexchange.com/q/40)~~: AT&T isn't supporting Graphviz as much as it did in the past and some of the authors have left to seek other work
 
-Yahoo [Yavin](https://github.com/stealth-tech-startup/framework) - BI tool
---------------------------------------------------------------------------
+Tenured Innovations @paion-data
+-------------------------------
 
-We use Yavin internally to empower our data-based decision making
+### Yahoo [Yavin](https://github.com/stealth-tech-startup/framework)
+
+We use Yavin internally to empower our data-based decision making, such as employees salary bonus, promotion, and product's users analytics
 
 - [Documentation](https://stealth-tech-startup.github.io/yavin-docs/)
 - [Example Yavin App (Template)](https://github.com/stealth-tech-startup/yavin-app)
@@ -206,23 +208,52 @@ We use Yavin internally to empower our data-based decision making
 
 - [Elide](https://stealth-tech-startup.github.io/elide-doc/)
 
-IaC via HashiCorp
------------------
+### Immutable Infrastructure via HashiCorp
+------------------------------------------
 
-We used to love HashiCorp but we are now frustrated with its major mis-actions that hurt us as a country, including
+What [HashiCorp AWS][HashiCorp AWS]  Believes
+---------------------------------------------
 
-- [Participating in the China-Ban](https://github.com/hashicorp/packer/pull/11888) (we know it's about government, but we don't care!)
-- [Close-sourcing its techs, such as documentation](https://github.com/hashicorp/dev-portal/blob/main/docs/README.md):
+[HashiCorp AWS][HashiCorp AWS] believes infrastructure is the "home" to software. The _highest-quality_ software are not possible unless backed by
+the best-made tech infrastructure
 
-  <img width="1005" alt="page" src="https://github.com/stealth-tech-startup/.github/assets/16126939/6e9e950e-b168-482e-a076-36398b43f624">
+### Traditional Software Development
 
-We predict that HashiCorp is going to keep shrinking its Open Source community and, thus, maintain a copy of what we depends here in case HashiCorp closes them:
+![Error loading traditional.png](https://github.com/QubitPi/QubitPi/blob/master/img/hashicorp-aws/traditional.png?raw=true)
 
-- [HashiCorp Dev Portal](https://github.com/stealth-tech-startup/hashicorp-dev-portal)
-- [HashiCorp Packer](https://github.com/stealth-tech-startup/hashicorp-packer)
+I learned, from years of work experience, that thriving as a Software Engineer with their internal and external
+engagement demands requires high levels of _interpersonal sophistication_. It is no doubt then that the **single
+hardest task in teamwork is _efficient communication_**. This gets exacerbated in a software development cycle in which
+a developer has to distribute their communication efforts among **3** parties, which makes mis-communication frequent
 
-  - [AWS Plugin](https://github.com/stealth-tech-startup/packer-plugin-amazon)
+### How Big Techs Improve It
 
-- [HashiCorp Terraform](https://github.com/stealth-tech-startup/hashicorp-terraform)
-- [HashiCorp Vault](https://github.com/stealth-tech-startup/hashicorp-vault)
-- [HashiCorp Vagrant](https://github.com/stealth-tech-startup/hashicorp-vagrant)
+![Error loading yahoo.png](https://github.com/QubitPi/QubitPi/blob/master/img/hashicorp-aws/yahoo.png?raw=true)
+
+By the time I joined Yahoo at 2016, the company had already made a
+[big move by removing all of its QA teams COMPLETELY][Yahoo removed QA]. Software developers were required to write
+automated tests by themselves using open source test frameworks, such as Groovy Spock, Jest, and Cypress. The software
+testing was then fully automated through [Yahoo's own CI platform][Screwdriver], which is developed on top of
+[Jenkins][Jenkins] originally.<br/><br/>This brought a big software quality improvements but in terms of communication
+quality, at least from my experience, was still not optimal. I've had such experience when I finshed implementing a
+system but waited for extra couple of weeks before DevOps Engineer set up a dedicated server for deployment. This
+virtually got mis-translated to my boss as "A software developer had his work delayed for couple weeks".
+
+### Software Development Tomorrow (What _HashiCorp AWS_ Does)
+
+![Error loading new.png](https://github.com/QubitPi/QubitPi/blob/master/img/hashicorp-aws/new.png?raw=true)
+
+The reason we still have DevOps staff is resource isolation using the ubiquitous Docker, which borns out of the
+traditional on-premise technology, is _manual_. With on-demand cloud, resource isolations are assumed NOT managed. We
+instead _manage business logics_ with efficiency ([Packer][Packer]) and immutability ([Terraform][Terraform]). **With
+HashiCorp + OpenStack Cloud, business no longer needs ~~Docker + k8s~~**. Teams and developers as well, with almost no
+overhead, are able to eliminate human DevOps<br/><br/>This is the picture from which I'm turning into reality in my
+team. Giving our developer fully **automated** control over infrastructure brings the following benefits to the team:
+
+- **Our developers learn more cutting-edge industry skills compared to their peers which makes our developers more
+  valuable along their career path**
+- **Taking hardware constraint into account causes a paradigm shift in how our engineers thought about problems, which
+  makes our developers better skilled and our software better in terms of quality**
+- **Eventually reduces the labor costs of company**
+
+[HashiCorp AWS][HashiCorp AWS] does exactly that.
