@@ -197,71 +197,12 @@ _Rapid_ Prototyping Tools
 Tenured Innovations @paion-data
 -------------------------------
 
-### Yahoo [Yavin](https://github.com/stealth-tech-startup/framework)
+- [HashiCorp AWS](https://github.com/marketplace/actions/hashicorp-aws)
+- **Yahoo [Yavin](https://github.com/stealth-tech-startup/yavin-framework)** We use Yavin internally to empower our data-based decision making, such as quantifying employees salary bonus & promotion, and analyzing the user behavirous of our product
 
-We use Yavin internally to empower our data-based decision making, such as quantifying employees salary bonus & promotion, and analyzing the user behavirous of our product
+  - [Documentation](https://stealth-tech-startup.github.io/yavin-docs/)
+  - [Example Yavin App (Template)](https://github.com/stealth-tech-startup/yavin-app)
 
-- [Documentation](https://stealth-tech-startup.github.io/yavin-docs/)
-- [Example Yavin App (Template)](https://github.com/stealth-tech-startup/yavin-app)
+    - [Externalized Config for the Example App (Template)](https://github.com/stealth-tech-startup/yavin-demo-config)
 
-  - [Externalized Config for the Example App (Template)](https://github.com/stealth-tech-startup/yavin-demo-config)
-
-- [Elide](https://stealth-tech-startup.github.io/elide-doc/)
-
-### [HashiCorp AWS][HashiCorp AWS]
-
-#### What [HashiCorp AWS][HashiCorp AWS] Believes
-
-[HashiCorp AWS][HashiCorp AWS] believes infrastructure is the "home" to software. The _highest-quality_ software are not possible unless backed by
-the best-made tech infrastructure
-
-#### Traditional Software Development
-
-![Error loading traditional.png](https://github.com/QubitPi/QubitPi/blob/master/img/hashicorp-aws/traditional.png?raw=true)
-
-I learned, from years of work experience, that thriving as a Software Engineer with their internal and external
-engagement demands requires high levels of _interpersonal sophistication_. It is no doubt then that the **single
-hardest task in teamwork is _efficient communication_**. This gets exacerbated in a software development cycle in which
-a developer has to distribute their communication efforts among **3** parties, which makes mis-communication frequent
-
-#### How Big Techs Improve It
-
-![Error loading yahoo.png](https://github.com/QubitPi/QubitPi/blob/master/img/hashicorp-aws/yahoo.png?raw=true)
-
-By the time I joined Yahoo at 2016, the company had already made a
-[big move by removing all of its QA teams COMPLETELY][Yahoo removed QA]. Software developers were required to write
-automated tests by themselves using open source test frameworks, such as Groovy Spock, Jest, and Cypress. The software
-testing was then fully automated through [Yahoo's own CI platform][Screwdriver], which is developed on top of
-[Jenkins][Jenkins] originally.<br/><br/>This brought a big software quality improvements but in terms of communication
-quality, at least from my experience, was still not optimal. I've had such experience when I finshed implementing a
-system but waited for extra couple of weeks before DevOps Engineer set up a dedicated server for deployment. This
-virtually got mis-translated to my boss as "A software developer had his work delayed for couple weeks".
-
-#### Software Development Tomorrow (What _HashiCorp AWS_ Does)
-
-![Error loading new.png](https://github.com/QubitPi/QubitPi/blob/master/img/hashicorp-aws/new.png?raw=true)
-
-The reason we still have DevOps staff is resource isolation using the ubiquitous Docker, which borns out of the
-traditional on-premise technology, is _manual_. With on-demand cloud, resource isolations are assumed NOT managed. We
-instead _manage business logics_ with efficiency ([Packer][HashiCorp Packer]) and immutability ([Terraform][HashiCorp Terraform]). **With
-HashiCorp + OpenStack Cloud, business no longer needs ~~Docker + k8s~~**. Teams and developers as well, with almost no
-overhead, are able to eliminate human DevOps<br/><br/>This is the picture from which I'm turning into reality in my
-team. Giving our developer fully **automated** control over infrastructure brings the following benefits to the team:
-
-- **Our developers learn more cutting-edge industry skills compared to their peers which makes our developers more
-  valuable along their career path**
-- **Taking hardware constraint into account causes a paradigm shift in how our engineers thought about problems, which
-  makes our developers better skilled and our software better in terms of quality**
-- **Eventually reduces the labor costs of company**
-
-[HashiCorp AWS][HashiCorp AWS] does exactly that.
-
-[HashiCorp AWS]: https://github.com/marketplace/actions/hashicorp-aws
-[HashiCorp Terraform]: https://qubitpi.github.io/hashicorp-terraform/terraform/docs
-[HashiCorp Packer]: https://qubitpi.github.io/hashicorp-packer/packer/docs
-
-[Jenkins]: https://qubitpi.github.io/jenkins.io
-
-[Screwdriver]: https://screwdriver.cd/
-
-[Yahoo removed QA]: https://spectrum.ieee.org/yahoos-engineers-move-to-coding-without-a-net
+  - [Elide Documentation](https://stealth-tech-startup.github.io/elide-doc/)
