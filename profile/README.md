@@ -4,7 +4,7 @@ I believe _continuous innovation_ is the strongest force that drives a team in t
 <b>An innovation is a prototyping that changes my life in 2 hours</b>
 </p>
 
-This org is dedicated for technologies that makes it happen
+This org is dedicated for technologies that makes innovation happen in that way
 
 _Rapid_ Prototyping Tools
 -------------------------
