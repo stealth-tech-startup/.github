@@ -197,8 +197,8 @@ _Rapid_ Prototyping Tools
 Tenured Innovations @paion-data
 -------------------------------
 
-- [HashiCorp AWS](https://github.com/marketplace/actions/hashicorp-aws)
-- **Yahoo [Yavin](https://github.com/stealth-tech-startup/yavin-framework)** We use Yavin internally to empower our data-based decision making, such as quantifying employees salary bonus & promotion, and analyzing the user behavirous of our product
+- [@QubitPi HashiCorp AWS](https://github.com/marketplace/actions/hashicorp-aws)
+- **Yahoo [Yavin](https://github.com/paion-data/unified-metrics-datamart)** We use Yavin internally to empower our data-based decision making, such as quantifying employees salary bonus & promotion, and analyzing the user behavirous of our product
 
   - [Documentation](https://stealth-tech-startup.github.io/yavin-docs/)
   - [Example Yavin App (Template)](https://github.com/stealth-tech-startup/yavin-app)
