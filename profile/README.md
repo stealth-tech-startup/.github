@@ -1,4 +1,4 @@
-I believe continuous innovation is the strongest force that drives a team in the right direction, because it implements [iterative product discovery](https://www.amazon.com/INSPIRED-Create-Tech-Products-Customers/dp/1119387507). My definition of innovation is
+I believe _continuous innovation_ is the strongest force that drives a team in the right direction, because it implements [iterative product discovery](https://www.amazon.com/INSPIRED-Create-Tech-Products-Customers/dp/1119387507). My definition of innovation is
 
 <p align="center">
 <b>An innovation is a prototyping that changes my life in 2 hours</b>
